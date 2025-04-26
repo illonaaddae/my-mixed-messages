@@ -18,6 +18,28 @@ let messageGenerator = {
     "Great things take time and effort.",
     "Trust the process and enjoy the journey.",
   ],
+  ascii: [
+    `
+     (•_•)
+    <)   )╯
+     /    \\
+    `,
+    `
+      |\\_/|
+      | @ @   Woof!
+      |   <>              _  
+      |  _/\\------____ ((| |))
+      |               \`--' |
+    ____|_       ___|   |___.'
+   /_/_____/____/_______|
+    `,
+    `
+     (｡♥‿♥｡)
+    `,
+    `
+    (づ｡◕‿‿◕｡)づ
+    `,
+  ],
 };
 //  Create an array to store the random messages
 let randomMessage = [];
@@ -31,4 +53,4 @@ for (let category in messageGenerator) {
   randomMessage.push(messages[randomIndex]);
 }
 
-console.log(`You know what?🤔  ${randomMessage.join("\n")} 🥂`);
+console.log(`You know what?🤔 ${randomMessage.join("\n")} 🥂`);
