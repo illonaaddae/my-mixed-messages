@@ -54,7 +54,7 @@ cd my-mixed-messages
 3. Run the program:
 
 ```
-node script.js
+node my-mixed-messages
 ```
 
 (Make sure you have Node.js installed on your computer!)
